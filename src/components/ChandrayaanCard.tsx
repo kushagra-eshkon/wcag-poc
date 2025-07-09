@@ -13,9 +13,9 @@ export default function ChandrayaanCard() {
         className={styles.image}
         priority
       />
-      <h2 id="card-title" className={styles.title}>
+      <h1 id="card-title" className={styles.title}>
         ISRO Announces Chandrayaan‑5 Lunar Rover Mission
-      </h2>
+      </h1>
       <p className={styles.description}>
         ISRO has officially approved Chandrayaan‑5, a next-gen lunar exploration
         mission featuring a 350 kg rover developed in collaboration with JAXA.
