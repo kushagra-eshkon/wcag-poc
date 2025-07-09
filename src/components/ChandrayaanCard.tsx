@@ -23,6 +23,7 @@ export default function ChandrayaanCard() {
       </p>
       <Link
         href="https://www.isro.gov.in/Chandrayaan3_Details.html"
+        aria-description="Read more about ISRO Chandrayaan‑5 mission on ISRO's official website"
         className={styles.cta}
         aria-label="Read more about ISRO Chandrayaan‑5 mission on ISRO's official website"
         role="link"
