@@ -1,5 +1,6 @@
 import Image from "next/image"
 import styles from "./ChandrayaanCard.module.css"
+import Link from "next/link"
 
 export default function ChandrayaanCard() {
   return (
@@ -20,12 +21,12 @@ export default function ChandrayaanCard() {
         mission featuring a 350 kg rover developed in collaboration with JAXA.
         Launch window and mission specifics will be finalized by late 2025.
       </p>
-      <a
+      <Link
         href="https://www.isro.gov.in/Chandrayaan3_Details.html"
         className={styles.cta}
       >
         Read More
-      </a>
+      </Link>
     </article>
   )
 }
