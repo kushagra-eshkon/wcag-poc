@@ -10,6 +10,7 @@ export default function ChandrayaanCard() {
         alt="Concept image of ISRO Chandrayaan-5 rover"
         width={640}
         height={360}
+        role="presentation"
         className={styles.image}
         priority
       />
